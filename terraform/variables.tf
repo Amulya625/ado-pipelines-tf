@@ -1,5 +1,5 @@
 variable "public_key_loc" {
-  default = "C:/Users/dpste/OneDrive/Documents/terraform/intech-azure-quickstart/scripts/id_rsa.pub"
+  default = "/home/azureuser/.ssh/id_ed25519.pub"
 }
 
 variable "resource_group_location" {
